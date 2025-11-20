@@ -8,6 +8,6 @@ namespace PowerBox.Code.Features.Buttons {
     public override UnityAction WindowOpenAction => GetFeature<FindAllCreaturesWindow>().FindAllCreaturesButtonClick;
     public override string SpritePath => "ui/icons/iconbrowse2";
 
-    protected override TabSection Section => TabSection.Info;
+    protected override TabSection Section => TabSection.Spawns;
   }
 }
